@@ -1,0 +1,35 @@
+{
+    "name": "rede-social-node",
+    "version": "1.0.0",
+    "description": "GameOver API Rest",
+    "main": "main.js",
+    "scripts": {
+        "start": "nodemon main.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ErnandesAJr/redesocialnode.git"
+    },
+    "keywords": [
+        "API",
+        "rest",
+        "node"
+    ],
+    "author": "Ernandes Junior",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ErnandesAJr/redesocialnode/issues"
+    },
+    "homepage": "https://github.com/ErnandesAJr/redesocialnode#readme",
+    "dependencies": {
+        "bcrypt": "^2.0.1",
+        "body-parser": "^1.18.3",
+        "express": "^4.8.8",
+        "jsonwebtoken": "^8.2.2",
+        "mongoose": "^5.1.2"
+    },
+    "devDependencies": {
+        "nodemon": "^1.11.0"
+    }
+}
